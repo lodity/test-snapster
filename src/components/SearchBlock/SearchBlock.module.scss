@@ -1,0 +1,46 @@
+.main{
+  margin-top: 60px;
+  padding: 30px 80px;
+  border-radius: 12px;
+  background-color: #4747ff;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 16px;
+}
+
+input, button{
+  border: 1px solid black;
+  border-radius: 2px;
+  padding: 5px 10px;
+  font-size: 14px;
+}
+
+.city{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  gap: 16px;
+
+  &Temp{
+    font-size: 50px;
+    font-weight: 900;
+  }
+  &Name{
+    font-size: 30px;
+    font-weight: 900;
+  }
+  &Humidity{
+    font-size: 20px;
+  }
+  &Wind{
+    font-size: 20px;
+  }
+  &NotFound{
+    color: white;
+    font-size: 30px;
+  }
+}
