@@ -9,6 +9,12 @@
   align-items: center;
   gap: 16px;
 }
+@media screen and (max-width: 460px) {
+  .main {
+    padding: 30px 5px;
+    width: 85vw;
+  }
+}
 
 input, button {
   border: 1px solid black;
